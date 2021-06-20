@@ -1,17 +1,66 @@
-body .welcome {
-    background-image: url(../images/h_img.jpg)
+body {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    height: auto;
 }
 
-.overlay {
-    position: fixed;
-    display: none;
-    width: 50%;
-    height: 50%;
-    top: 0;
+.welcome {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background: url(../images/h_img.jpg);
+    background-size: cover;
+    color: white;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 2;
-    cursor: pointer;
-  }
+    line-height: 50px;
+    margin-top: 0px;
+    padding-top: 12%;
+    width: 100%;
+    font-size: larger;
+}
+
+
+.welcome h3 {
+    padding-top: 15px;
+}
+
+.welcome p {
+    padding-top: 0px;
+}
+
+.about {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: black;
+}
+.s {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: url(../images/image9.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    display: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border: 2px solid white;
+}
