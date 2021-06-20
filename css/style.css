@@ -50,3 +50,14 @@ body {
 }
 
 
+.contact {
+    background-image: url(../images/c_image.jpg);
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+
+}
+
+#message {
+    background-color: transparent;
+}
