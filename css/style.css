@@ -60,4 +60,19 @@ body {
 
 #message {
     background-color: transparent;
+
 }
+
+#submit {
+    background-color: transparent;
+}
+
+#name {
+    background-color: transparent;
+    padding-right: 25px;
+}
+
+.contact-head {
+    padding-bottom: 40px;
+}
+
