@@ -85,6 +85,15 @@ $(".image8").mouseout(function(){
     $("#eight").hide();
 });
 
+//contact  section
+
+$("#enter-form").submit(function(event) {
+    event.preventDefault();
+    var name = $("#name").val();
+    alert("Dear " + name + " thankyou for emailing us.We have recieved your feedback and will reply soon.");
+    document.getElementById("enter-form").reset();
+})
+
 
 });
 
