@@ -26,6 +26,16 @@ $(document).ready(function() {
         $("#product1").show();
     });
 
+//portfolio section
+
+$(".image1").mouseover(function(){
+    $("#one").show();
+});
+
+$(".image1").mouseout(function(){
+    $("#one").hide();
+});
+
 });
 
 
