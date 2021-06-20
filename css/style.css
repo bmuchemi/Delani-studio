@@ -50,17 +50,3 @@ body {
 }
 
 
-.overlay {
-    position: absolute;
-    height: 80%;
-    width: 80%;
-    top: 10%;
-    left: 10%;
-    text-align: center;
-    font-size: larger;
-    font-weight: 900;
-    display: none;
-    background: rgba(255, 255, 255, 0.2);
-    color: black;
-    border: 2px solid white;
-}
