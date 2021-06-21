@@ -60,6 +60,7 @@ body {
 
 #message {
     background-color: transparent;
+    color: whitesmoke;
 
 }
 
@@ -75,7 +76,7 @@ body {
 
 #email {
     background-color: transparent;
-    color: black;
+    color: whitesmoke;
 }
 
 .contact-head {
