@@ -60,22 +60,28 @@ body {
 
 #message {
     background-color: transparent;
+    color: black;
 
 }
 
 #submit {
     background-color: transparent;
+    color: whitesmoke;
 }
 
 #name {
     background-color: transparent;
     padding-right: 25px;
-    color: white;
+    color: black;
 }
 
 #email {
     background-color: transparent;
     color: black;
+}
+
+::placeholder {
+    color: whitesmoke;
 }
 
 .contact-head {
