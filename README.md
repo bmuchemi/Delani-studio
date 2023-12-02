@@ -34,4 +34,4 @@ git clone https://github.com/bmuchemi/Delani-studio.git
 
 #### **Contact**
 >Benjamin Muchemi - bmuchemi@gmail.com <br>
->Live Link: https://github.com/bmuchemi/Delani-studio.git
+>Live Link: https://bmuchemi.github.io/Delani-studio/
